@@ -1,0 +1,14 @@
+div.bg-white{
+    display: flex;
+    flex-direction: row-reverse;
+}
+span.bg-green{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:3px 3px;
+    color: white;
+    background:#2fbb2a;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}

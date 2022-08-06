@@ -1,0 +1,13 @@
+div.form-wrapper{
+    text-align-last: center;
+}
+input.mobile{
+    width: 100%;
+}
+button#sign-in-button.main-button{
+    border: none;
+    color:white;
+    background-color: green;
+    border-radius: 3px;
+    width: 100%;
+}

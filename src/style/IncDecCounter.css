@@ -1,0 +1,19 @@
+.input-group {
+     position: relative;
+     display: flex;
+     flex-wrap: inherit;
+     align-items: baseline;
+     width: 100%;
+ }
+
+ .qty_counter{
+    padding: 5px 10px;
+ }
+
+ .add_to_cart_btn{
+    height: fit-content;
+ }
+
+ .btn:hover,  .btn:focus {
+    border-color: #fff !important;
+}

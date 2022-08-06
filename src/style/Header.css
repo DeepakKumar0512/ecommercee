@@ -1,0 +1,81 @@
+.header{
+    background-color: #00B576;
+    display:flex;
+    flex-direction: initial;
+    align-items: center;
+    position:sticky;
+    bottom:0;
+    z-index: 1 ;
+    justify-content: space-around;
+    opacity: 2;
+}
+.header__logo{
+    width: 100px;
+    margin:0 20px;
+    margin-top:18px;
+    object-fit: contain;
+    
+}
+.header__optionBasket{
+    display:flex;
+    align-items: center;   
+}
+.header__basketCount{
+    margin: 0 10px;
+}
+.header__nav{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+.header__option{
+    display:flex;
+    flex-direction: column;
+    margin: 0 10px;
+    
+}
+.header__optionLine{
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+.login-btn, .logout-btn {
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;   
+}
+.header__optionuser{
+    font-size: 35px;  
+    cursor: pointer;
+}    
+.header__link{
+    color:#fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header__title{
+    display: flex;
+    color: #ececec;
+    font-size:20px;
+    background-color: #077750;
+    border-radius: 8px;
+}
+.header__title >p>strong{
+    margin: 10px;
+}
+.modal-dialog {
+    margin-bottom: 0%;
+    max-width: 100%;
+    position:fixed;
+    top:auto;
+    right:0;
+    left:0;
+    bottom:85px;
+}
+.modal-content{
+    width: 100%;
+    margin-right:0px; 
+}
