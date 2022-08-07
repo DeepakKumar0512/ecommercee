@@ -4,3 +4,4 @@ build
 firebase.json
 .firebase
 README.md
+./src/components/serviceWorker.js
